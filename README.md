@@ -1,4 +1,12 @@
-Отлично! Теперь всё понятно. **"Pending Invite"** в разделе **Collaborators** на GitHub означает, что вас пригласили в качестве collaborator'a (соавтора) в чей-то репозиторий.
+
+Collaborators and teams
+https://github.com/yuratokazin/gitcube/settings/access
+Переходим yuratokazin/gitcube и слева выбираем Settings далее справа Collaborators
+
+# IT cube Гусиноозерска 
+
+
+Теперь всё понятно. **"Pending Invite"** в разделе **Collaborators** на GitHub означает, что вас пригласили в качестве collaborator'a (соавтора) в чей-то репозиторий.
 
 Чтобы принять это приглашение, у вас есть **три основных способа**.
 
@@ -35,11 +43,9 @@ GitHub автоматически перенаправит вас на нужн�
 
 Если ни один из способов не сработал, возможно, приглашение устарело или было отозвано. В таком случае попросите владельца репозитория отправить приглашение заново.
 
-Collaborators and teams
-https://github.com/yuratokazin/gitcube/settings/access
-Переходим yuratokazin/gitcube и слева выбираем Settings далее справа Collaborators
+---
+---
 
-# IT cube Гусиноозерска 
 
 Чтобы создать дополнительные репозитории в вашем GitHub аккаунте, следуйте этим шагам:
 
