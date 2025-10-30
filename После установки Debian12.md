@@ -37,3 +37,4 @@
 - Экран - Настройка экранов - Маштаб - 100 - 125 - 150 - 200 
   - Применить
 
+https://drive.google.com/file/d/1sNm7yPDemdBuIqOA47gn21lw2-hyJKSh/view?usp=drive_link
