@@ -1,11 +1,14 @@
+# IT cube Гусиноозерска 
 
+Все вворосы по темам решаем здесь https://t.me/+l3DBhW_7ZBlmODQ6
+
+---
 
 Collaborators and teams
 https://github.com/yuratokazin/gitcube/settings/access
 Переходим yuratokazin/gitcube и слева выбираем Settings далее справа Collaborators
 
-# IT cube Гусиноозерска 
-
+---
 
 Теперь всё понятно. **"Pending Invite"** в разделе **Collaborators** на GitHub означает, что вас пригласили в качестве collaborator'a (соавтора) в чей-то репозиторий.
 
