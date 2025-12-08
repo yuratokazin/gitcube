@@ -38,3 +38,8 @@
   - Применить
 
 https://drive.google.com/file/d/1sNm7yPDemdBuIqOA47gn21lw2-hyJKSh/view?usp=drive_link
+
+Изменить обои на горы:
+
+/usr/share/wallpapers/Next/contents/images/
+
