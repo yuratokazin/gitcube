@@ -3,7 +3,7 @@
 Дополнительные вопросы по темам решаем здесь https://t.me/+l3DBhW_7ZBlmODQ6
 
 ---
-Для работы с документами в гитхабе используй https://drive.google.com/file/d/1sNm7yPDemdBuIqOA47gn21lw2-hyJKSh/view?usp=sharing в Дебиян
+Для работы с документами в гитхабе используй https://drive.google.com/file/d/1sNm7yPDemdBuIqOA47gn21lw2-hyJKSh/view?usp=sharing для Дебиян
 
 ---
 
