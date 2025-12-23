@@ -3,7 +3,7 @@
 Дополнительные вопросы по темам решаем здесь https://t.me/+l3DBhW_7ZBlmODQ6
 
 ---
-Для работы с документами в гитхабе используй https://drive.google.com/file/d/1sNm7yPDemdBuIqOA47gn21lw2-hyJKSh/view?usp=sharing для Дебиян
+Для работы с документами в гитхабе используй Typora-linux-x64.zip https://drive.google.com/file/d/1sNm7yPDemdBuIqOA47gn21lw2-hyJKSh/view?usp=sharing редактор Typora для Дебиян
 
 ---
 
