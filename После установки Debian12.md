@@ -342,14 +342,12 @@ rm -rf ~/.config/plasma-* ~/.cache/plasma*
 Если перезапуск plasmashell не помог, можно попробовать перезапустить диспетчер дисплеев (например, `systemd-logind` или `lightdm`). Для этого в терминале выполните команду:
 
 ```
-bash
 sudo systemctl restart systemd-logind
 ```
 
 или
 
 ```
-bash
 sudo systemctl restart lightdm
 ```
 
