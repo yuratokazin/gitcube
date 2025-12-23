@@ -3,7 +3,7 @@
 Дополнительные вопросы по темам решаем здесь https://t.me/+l3DBhW_7ZBlmODQ6
 
 ---
-Для работы с документами в гитхабе используй редактор Typora для Дебиян скачать portable  [Typora-linux-x64.zip](https://drive.google.com/file/d/1sNm7yPDemdBuIqOA47gn21lw2-hyJKSh/view?usp=sharing) 
+Typora portable для Debian [Typora-linux-x64.zip](https://drive.google.com/file/d/1sNm7yPDemdBuIqOA47gn21lw2-hyJKSh/view?usp=sharing) 
 
 ---
 
