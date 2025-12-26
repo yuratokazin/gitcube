@@ -358,7 +358,62 @@ sudo systemctl restart lightdm
 4. Нажмите **«Применить»**, чтобы сохранить изменения.
 
 ---
+---
+# Установка Pinta
 
+### 1. Добавление PPA‑репозитория (для Ubuntu/Debian)
+
+Добавьте официальный PPA‑репозиторий Pinta:
+
+```bash
+sudo add-apt-repository ppa:pinta-maintainers/pinta-stable
+sudo apt update
+sudo apt install pinta
+```
+
+### 2. Установка через Snap (универсальный способ)
+
+Если Snap установлен, попробуйте:
+
+```bash
+sudo snap install pinta
+```
+
+### 3. Установка через Flatpak
+
+Установите Flatpak (если не установлен):
+
+```bash
+sudo apt install flatpak
+```
+
+Добавьте репозиторий Flathub:
+
+```bash
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+```
+
+Установите Pinta:
+
+```bash
+flatpak install flathub com.github.PintaProject.Pinta
+```
+
+### 4. Ручная установка из исходного кода
+
+1. Скачайте последнюю версию с официального сайта: [![www.pinta-project.com](https://favicon.yandex.net/favicon/v2/www.pinta-project.com/?size=32&stub=1)https://www.pinta-project.com](https://www.pinta-project.com/)
+
+2. Распакуйте архив:
+
+   ```bash
+   tar -xzf pinta-*.tar.gz
+   ```
+
+3. Перейдите в распакованную папку и следуйте инструкциям по сборке (обычно `./configure`, `make`, `sudo make install`).
+
+
+
+---
 
 Ссылка на мой репозиторий:
 
