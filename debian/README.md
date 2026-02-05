@@ -66,52 +66,42 @@ PinguyBuilder или Systemback: Позволяют сделать слепок 
 
 Чтобы на выходе получить **загрузочный ISO**, мы будем использовать его в связке с `genisoimage`.
 
-\1. Установка инструмента
-
-bash
+### 1. Установка инструмента
 
 ```
-apt update
-apt install mmdebstrap arch-test genisoimage isolinux squashfs-tools
+sudo apt update
+sudo apt install mmdebstrap arch-test genisoimage isolinux squashfs-tools
 ```
 
 Используйте код с осторожностью.
 
-\2. Создание базовой системы с KDE
+### 2. Создание базовой системы с KDE
 
 Вместо кучи конфигов `live-build`, здесь всё делается одной мощной командой. Мы создадим папку и развернем там Bookworm сразу с твоими пакетами:
 
-bash
-
 ```
-mkdir -p /build-distro/chroot
+sudo mkdir -p /build-distro/chroot
 mmdebstrap --architecture=amd64 \
 --include="task-kde-desktop,kde-standard,network-manager,plasma-nm,firefox-esr,linux-image-amd64,live-boot,systemd-sysv" \
 bookworm /build-distro/chroot http://deb.debian.org
 ```
 
-Используйте код с осторожностью.
-
 *Эта команда сделает то, на чем падал live-build: скачает, проверит и **распакует** систему в папку chroot.*
 
-\3. Как превратить это в ISO?
+### 3. Как превратить это в ISO?
 
 Когда `mmdebstrap` закончит, у тебя будет готовая файловая система. Чтобы сделать её загрузочной, нужно:
 
-1. **Сжать её в SquashFS:**
+**Сжать её в SquashFS:**
 
-   bash
 
    ```
    mksquashfs /build-distro/chroot /build-distro/filesystem.squashfs -comp xz
    ```
 
-   Используйте код с осторожностью.
-
 **Подготовить структуру ISO:**
 Нужно создать папки `live` и `isolinux`, скопировать туда ядро и ваш сжатый файл.
 
-1. 
 
 ------
 
