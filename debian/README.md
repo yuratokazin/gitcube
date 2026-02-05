@@ -30,8 +30,13 @@ cd /build-distro
 Эта команда скачает и распакует Debian Bookworm с KDE и вашими пакетами:
 
 ```
+sudo rm -rf /build-distro/chroot && \
 sudo mmdebstrap --architecture=amd64 \
---include="task-kde-desktop,kde-standard,network-manager,plasma-nm,firefox-esr,linux-image-amd64,live-boot,systemd-sysv,sudo,locales,task-russian,task-russian-desktop,kwin-x11,kwin-common,kwin-style-breeze,kded5,kinit,qml-module-org-kde-kcm,desktop-file-utils,breeze-icons,desktop-base" \
+--include="task-kde-desktop,kde-standard,network-manager,plasma-nm,firefox-esr,linux-image-amd64,live-boot,systemd-sysv,sudo,locales,task-russian,task-russian-desktop,kwin-x11,kwin-common,kwin-style-breeze,kded5,kinit,qml-module-org-kde-kcm,desktop-file-utils,breeze-icon-theme,desktop-base" \
+--customize-hook='chroot "$1" sh -c "echo \"ru_RU.UTF-8 UTF-8\" > /etc/locale.gen && locale-gen"' \
+--customize-hook='chroot "$1" sh -c "echo \"LANG=ru_RU.UTF-8\" > /etc/default/locale"' \
+--customize-hook='chroot "$1" sh -c "echo root:admin | chpasswd"' \
+--customize-hook='chroot "$1" sh -c "useradd -m -s /bin/bash user && echo user:admin | chpasswd && adduser user sudo"' \
 bookworm /build-distro/chroot http://mirror.yandex.ru/debian/
 ```
 
