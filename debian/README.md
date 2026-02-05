@@ -12,7 +12,7 @@
 ```
 # Установка необходимых инструментов
 sudo apt update
-sudo apt install mmdebstrap genisoimage isolinux syslinux-common \
+sudo apt install mmdebstrap xorriso genisoimage isolinux syslinux-common \
      mtools libisoburn1 squashfs-tools qemu-system-x86 -y
 
 # Создание рабочей директории в корне (чтобы избежать проблем с правами)
