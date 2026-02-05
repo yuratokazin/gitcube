@@ -178,7 +178,7 @@ qemu-system-x86_64 -enable-kvm -m 2G -cdrom ~/my_distro.iso
 
 **Что вы можете сделать дальше:**
 
-1. Записать ISO на флешку: `sudo dd if=~/my_final_distro.iso of=/dev/sdX status=progress` (где **sdX** — ваша флешка).
+1. Записать ISO на флешку: `sudo dd if=~/my_distro.iso of=/dev/sdX status=progress` (где **sdX** — ваша флешка).
 2. Если всё работает, удалите рабочую папку: `sudo rm -rf /build-distro`.
 
 
@@ -211,8 +211,6 @@ qemu-system-x86_64 -enable-kvm -m 2G -cdrom ~/my_distro.iso
 
 После перезагрузки, когда система Debian загрузится, выполните снова ваши команды:
 
-bash
-
 ```
 sudo modprobe kvm_intel 
 # Эта команда теперь должна выполниться без ошибок
@@ -220,17 +218,11 @@ grep -Eoc '(vmx|svm)' /proc/cpuinfo
 # Теперь результат должен быть 1 или больше
 ```
 
-Используйте код с осторожностью.
-
 После этого ваша команда запуска QEMU с KVM должна работать:
-
-bash
 
 ```
 qemu-system-x86_64 -enable-kvm -m 2G -cdrom ~/my_distro.iso
 ```
-
-Используйте код с осторожностью.
 
 Если у вас возникнут проблемы с поиском нужного пункта в меню BIOS, я могу  поискать конкретные скриншоты меню для вашей модели ноутбука.
 
