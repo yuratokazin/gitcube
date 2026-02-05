@@ -189,6 +189,15 @@ qemu-system-x86_64 -enable-kvm -m 2G -cdrom ~/my_distro.iso
 
 ---
 
+
+```
+Could not access KVM kernel module: No such file or directoryqemu-system-x86_64: failed to initialize kvm: No such file or directory
+```
+
+Вы получили эту ошибку, потому что модули виртуализации KVM не загружены или не поддерживаются вашим процессором (или отключены в BIOS/UEFI).
+ 
+Вот как это исправить:
+
 ОК, у вас ноутбук **Lenovo Ideapad 110-15IBR** с процессором **Intel Pentium N3710**.
 
 Этот процессор *поддерживает* аппаратную виртуализацию Intel VT-x, но она, скорее всего, **отключена в BIOS** вашего ноутбука по умолчанию, поэтому вы и видите ошибку `Operation not supported`.
