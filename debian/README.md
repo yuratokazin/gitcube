@@ -192,7 +192,10 @@ qemu-system-x86_64 -enable-kvm -m 2G -cdrom ~/my_distro.iso
 
 
 ```
-Could not access KVM kernel module: No such file or directoryqemu-system-x86_64: failed to initialize kvm: No such file or directory
+Could not access KVM kernel module:
+No such file or directoryqemu-system-x86_64:
+failed to initialize kvm:
+No such file or directory
 ```
 
 Вы получили эту ошибку, потому что модули виртуализации KVM не загружены или не поддерживаются вашим процессором (или отключены в BIOS/UEFI).
