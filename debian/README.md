@@ -34,7 +34,6 @@ cd /build-distro
 Вот максимально полный вариант команды для создания полноценной Live-системы. Я добавил **SDDM**, поддержку **Wi-Fi**, драйверы и необходимые QML-компоненты, чтобы рабочий стол сразу выглядел «по-человечески».
 
 ```
-sudo rm -rf /build-distro/chroot && \
 sudo mmdebstrap --architecture=amd64 \
 --components="main,contrib,non-free,non-free-firmware" \
 --include="linux-image-amd64,live-boot,systemd-sysv,sudo,locales,network-manager,plasma-nm,firefox-esr,task-russian,task-russian-desktop,desktop-base, \
