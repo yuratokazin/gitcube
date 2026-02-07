@@ -41,7 +41,8 @@ sudo mmdebstrap --architecture=amd64 \
 kde-standard,plasma-desktop,plasma-workspace,sddm,kwin-x11,kinit, \
 plasma-framework,qml-module-qtquick-layouts,qml-module-qtquick-controls2,qml-module-qtquick-window2, \
 qml-module-org-kde-qqc2desktopstyle,qml-module-org-kde-kirigami2,qml-module-org-kde-kio, \
-plasma-widgets-addons,libqt5svg5,libqt5gui5,breeze-icon-theme,desktop-file-utils, \
+qml-module-org-kde-plasma-core,qml-module-org-kde-plasma-components3, \
+plasma-widgets-addons,libkf5plasma5,libkf5plasmaquick5,libqt5svg5,libqt5gui5,breeze-icon-theme,desktop-file-utils, \
 xserver-xorg-core,xserver-xorg-video-all,xserver-xorg-input-all, \
 firmware-linux,firmware-linux-nonfree,firmware-iwlwifi,firmware-realtek,wpasupplicant" \
 bookworm /build-distro/chroot http://mirror.yandex.ru/debian/
