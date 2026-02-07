@@ -38,14 +38,16 @@ sudo rm -rf /build-distro/chroot && \
 sudo mmdebstrap --architecture=amd64 \
 --components="main,contrib,non-free,non-free-firmware" \
 --include="linux-image-amd64,live-boot,systemd-sysv,sudo,locales,network-manager,plasma-nm,firefox-esr,task-russian,task-russian-desktop,desktop-base, \
-kde-standard,plasma-desktop,plasma-workspace,sddm,kwin-x11,kinit, \
+kde-standard,plasma-desktop,plasma-workspace,sddm,kwin-x11,kinit,dolphin,konsole, \
 plasma-framework,plasma-widgets-addons,plasma-desktop-data, \
 qml-module-qtquick-layouts,qml-module-qtquick-controls2,qml-module-qtquick-window2, \
 qml-module-org-kde-qqc2desktopstyle,qml-module-org-kde-kirigami2,qml-module-org-kde-kio, \
-qml-module-org-kde-runnermodel,qml-module-org-kde-solid, \
+qml-module-org-kde-runnermodel,qml-module-org-kde-solid,qml-module-org-kde-kquickcontrols, \
 libkf5plasma5,libkf5plasmaquick5,libqt5svg5,libqt5gui5,breeze-icon-theme,desktop-file-utils, \
 xserver-xorg-core,xserver-xorg-video-all,xserver-xorg-input-all, \
 firmware-linux,firmware-linux-nonfree,firmware-iwlwifi,firmware-realtek,wpasupplicant" \
+--customize-hook="chroot \$1 apt-get update" \
+--customize-hook="chroot \$1 /bin/bash -c 'apt-get install --no-install-recommends -y \$(apt-cache depends plasma-desktop | grep \"Depends: qml-module-\" | awk \"{print \$2}\")'" \
 bookworm /build-distro/chroot http://mirror.yandex.ru/debian/
 ```
 
