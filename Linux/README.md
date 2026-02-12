@@ -1,10 +1,11 @@
 
-Дерево каталогов. 
+## Дерево каталогов. 
 
 ```mermaid
 graph TD
     A["/"]--> B[bin]
     A --> C[etc]
+    A --> R[root]
     A --> D[home] --> U[user1] 
     D --> W[user2]
     A --> E[var]
@@ -17,8 +18,8 @@ graph TD
     classDef webfolder fill:#e6f7ff,stroke:#0066cc
     class H,I,J webfolder
 
-    click H "http://site1.example.com" "Сайт 1"
-    click I "http://site2.example.com" "Сайт 2"
+    click H "https://developer-software.ru/" "Сайт 1"
+    click I "http://example.com" "Сайт 2"
     click J "http://site3.example.com" "Сайт 3"
 ```
 
