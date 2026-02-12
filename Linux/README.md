@@ -1,3 +1,40 @@
+
+Дерево каталогов. 
+
+```mermaid
+graph TD
+    A["/"]--> B[bin]
+    A --> C[etc]
+    A --> D[home] --> U[user1] 
+    D --> W[user2]
+    A --> E[var]
+    E --> F[log]
+    E --> G[www]
+    G --> H[site1]
+    G --> I[site2]
+
+    style G fill:#e6f7ff,stroke:#333
+    classDef webfolder fill:#e6f7ff,stroke:#0066cc
+    class H,I,J webfolder
+
+    click H "http://site1.example.com" "Сайт 1"
+    click I "http://site2.example.com" "Сайт 2"
+    click J "http://site3.example.com" "Сайт 3"
+```
+
+```markdown
+    / — корневой каталог (root directory) — самая верхняя точка иерархии файловой системы
+    bin — системные исполняемые файлы
+    etc — конфигурационные файлы системы
+    home — домашние каталоги пользователей
+    user1
+    user2
+    var — изменяемые данные
+    log — логи системы
+```
+
+
+
 ### Мастер‑класс «Базовые навыки работы в Linux (на примере Debian)» для педагогов дополнительного образования
  
 **Продолжительность:** 30 минут.
