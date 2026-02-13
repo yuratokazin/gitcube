@@ -3,24 +3,30 @@
 
 ```mermaid
 graph TD
-    A["/"]--> B[bin]
-    A --> C[etc]
+    A["/"] --> B[bin]
+    A --> C[boot]
+    A --> D[dev]
+    A --> E[etc]
     A --> R[root]
-    A --> D[home] --> U[user1] 
-    D --> W[user2]
-    A --> E[var]
-    E --> F[log]
-    E --> G[www]
-    G --> H[site1]
-    G --> I[site2]
+    A --> F[home]
+    A --> G[usr]
+    A --> H[var]
 
-    style G fill:#e6f7ff,stroke:#333
-    classDef webfolder fill:#e6f7ff,stroke:#0066cc
-    class H,I,J webfolder
+    F --> U1[user1]
+    F --> U2[user2]
 
-    click H "https://developer-software.ru/" "Сайт 1"
-    click I "http://example.com" "Сайт 2"
-    click J "http://site3.example.com" "Сайт 3"
+    H --> W[www]
+    W --> S1[site1]
+    W --> S2[site2]
+
+    %% Стилизация
+    style A fill:#f0f8ff,stroke:#333,stroke-width:2px
+    classDef sysdir fill:#e6f7ff,stroke:#0066cc
+    class B,C,D,E,G,H,R sysdir
+    classDef homedir fill:#fff3cd,stroke:#856404
+    class U1,U2,U3 homedir
+    classDef webdir fill:#d1ecf1,stroke:#0c5460
+    class S1,S2 webdir
 ```
 
 
