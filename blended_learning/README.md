@@ -19,7 +19,7 @@
 
 ---
 
-## Обзор от ИИ 
+## Перевернутый класс 
 
 Перевернутый класс — это а) [ смешанное обучение ](https://www.google.com/search?q=blended+learning&mstk=AUtExfB2z9nqxsKV0KpD7Yz1mP5bxhVFQkAEjDuPEbEqgFcvdQdjaycieJMB8LeM9vl2sV35UkXL5p--DtsCvrMDuGNQtjdxxBqrk3fJC_tOI2jARFTRlX1DgN6gU5hTfD-PBKlpb76lfWravOHzYG4ys_FxEAPm9XBOKbRDKv6XFR0qSLI&csui=3&ved=2ahUKEwiguJzd9OmSAxXSJxAIHaBjIVMQgK4QegQIARAE)Стратегия, которая переворачивает традиционные методы обучения, перенося прямое  обучение (лекции) в формат самостоятельного обучения вне класса — часто с помощью видеоматериалов — и используя время занятий для активного,  совместного применения концепций. Такой подход превращает  классную комнату в динамичную, интерактивную среду, где учителя  способствуют обучению, ориентированному на ученика.  
 
