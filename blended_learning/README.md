@@ -15,7 +15,19 @@
 
 - **[Перевернутый класс ](https://www.google.com/search?q=Flipped+Classroom&mstk=AUtExfB2z9nqxsKV0KpD7Yz1mP5bxhVFQkAEjDuPEbEqgFcvdQdjaycieJMB8LeM9vl2sV35UkXL5p--DtsCvrMDuGNQtjdxxBqrk3fJC_tOI2jARFTRlX1DgN6gU5hTfD-PBKlpb76lfWravOHzYG4ys_FxEAPm9XBOKbRDKv6XFR0qSLI&csui=3&ved=2ahUKEwjO-7aK7-mSAxU7PhAIHf4jMpUQgK4QegQIBRAB):** Студенты изучают новый материал онлайн дома, а затем используют время занятий для обсуждений, проектов и упражнений. 
 - **[Модель вращения ](https://www.google.com/search?q=Rotation+Model&mstk=AUtExfB2z9nqxsKV0KpD7Yz1mP5bxhVFQkAEjDuPEbEqgFcvdQdjaycieJMB8LeM9vl2sV35UkXL5p--DtsCvrMDuGNQtjdxxBqrk3fJC_tOI2jARFTRlX1DgN6gU5hTfD-PBKlpb76lfWravOHzYG4ys_FxEAPm9XBOKbRDKv6XFR0qSLI&csui=3&ved=2ahUKEwjO-7aK7-mSAxU7PhAIHf4jMpUQgK4QegQIBRAD):** В соответствии с установленным расписанием, студенты поочередно  перемещаются между различными учебными станциями, по крайней мере одна  из которых работает в онлайн-формате. 
-- **[Гибкая модель ](https://www.google.com/search?q=Flex+Model&mstk=AUtExfB2z9nqxsKV0KpD7Yz1mP5bxhVFQkAEjDuPEbEqgFcvdQdjaycieJMB8LeM9vl2sV35UkXL5p--DtsCvrMDuGNQtjdxxBqrk3fJC_tOI2jARFTRlX1DgN6gU5hTfD-PBKlpb76lfWravOHzYG4ys_FxEAPm9XBOKbRDKv6XFR0qSLI&csui=3&ved=2ahUKEwjO-7aK7-mSAxU7PhAIHf4jMpUQgK4QegQIBRAF):** Учебный материал предоставляется преимущественно в онлайн-формате, а  преподаватели оказывают поддержку и дают рекомендации на месте по мере  необходимости.  
+- **[Гибкая модель ](https://www.google.com/search?q=Flex+Model&mstk=AUtExfB2z9nqxsKV0KpD7Yz1mP5bxhVFQkAEjDuPEbEqgFcvdQdjaycieJMB8LeM9vl2sV35UkXL5p--DtsCvrMDuGNQtjdxxBqrk3fJC_tOI2jARFTRlX1DgN6gU5hTfD-PBKlpb76lfWravOHzYG4ys_FxEAPm9XBOKbRDKv6XFR0qSLI&csui=3&ved=2ahUKEwjO-7aK7-mSAxU7PhAIHf4jMpUQgK4QegQIBRAF):** Учебный материал предоставляется преимущественно в онлайн-формате, а  преподаватели оказывают поддержку и дают рекомендации на месте по мере  необходимости.
+  
+---
+
+## Гибкая модель
+
+(Flex Model of Blended Learning)
+
+Модель «гибкого» смешанного обучения, популярная в школах и колледжах. 
+
+- **Суть**: Основная часть учебного материала (теория, упражнения) изучается студентами **онлайн** прямо в учебном заведении.
+- **Роль учителя**: Преподаватель не читает лекции всей группе, а выступает в роли  консультанта или ментора, помогая индивидуально или малым группам по  мере необходимости.
+- **Преимущества**: Ученики движутся в собственном темпе, что идеально подходит для программ по интересам или коррекционного образования. 
 
 ---
 
