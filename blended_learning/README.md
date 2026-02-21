@@ -18,6 +18,37 @@
 - **[Гибкая модель ](https://www.google.com/search?q=Flex+Model&mstk=AUtExfB2z9nqxsKV0KpD7Yz1mP5bxhVFQkAEjDuPEbEqgFcvdQdjaycieJMB8LeM9vl2sV35UkXL5p--DtsCvrMDuGNQtjdxxBqrk3fJC_tOI2jARFTRlX1DgN6gU5hTfD-PBKlpb76lfWravOHzYG4ys_FxEAPm9XBOKbRDKv6XFR0qSLI&csui=3&ved=2ahUKEwjO-7aK7-mSAxU7PhAIHf4jMpUQgK4QegQIBRAF):** Учебный материал предоставляется преимущественно в онлайн-формате, а  преподаватели оказывают поддержку и дают рекомендации на месте по мере  необходимости.  
 
 ---
+
+## Обзор от ИИ 
+
+Перевернутый класс — это а) [ смешанное обучение ](https://www.google.com/search?q=blended+learning&mstk=AUtExfB2z9nqxsKV0KpD7Yz1mP5bxhVFQkAEjDuPEbEqgFcvdQdjaycieJMB8LeM9vl2sV35UkXL5p--DtsCvrMDuGNQtjdxxBqrk3fJC_tOI2jARFTRlX1DgN6gU5hTfD-PBKlpb76lfWravOHzYG4ys_FxEAPm9XBOKbRDKv6XFR0qSLI&csui=3&ved=2ahUKEwiguJzd9OmSAxXSJxAIHaBjIVMQgK4QegQIARAE)Стратегия, которая переворачивает традиционные методы обучения, перенося прямое  обучение (лекции) в формат самостоятельного обучения вне класса — часто с помощью видеоматериалов — и используя время занятий для активного,  совместного применения концепций. Такой подход превращает  классную комнату в динамичную, интерактивную среду, где учителя  способствуют обучению, ориентированному на ученика.  
+
+**Ключевые компоненты и стратегии** 
+
+- **[Предварительное обучение перед занятием ](https://www.google.com/search?q=Pre-class+learning&mstk=AUtExfB2z9nqxsKV0KpD7Yz1mP5bxhVFQkAEjDuPEbEqgFcvdQdjaycieJMB8LeM9vl2sV35UkXL5p--DtsCvrMDuGNQtjdxxBqrk3fJC_tOI2jARFTRlX1DgN6gU5hTfD-PBKlpb76lfWravOHzYG4ys_FxEAPm9XBOKbRDKv6XFR0qSLI&csui=3&ved=2ahUKEwiguJzd9OmSAxXSJxAIHaBjIVMQgK4QegQIAxAB):** Студенты смотрят лекции или читают материалы дома, что позволяет им ставить на  паузу, перематывать и учиться в своем собственном темпе. 
+- **[Активное применение знаний на занятиях ](https://www.google.com/search?q=Active+In-class+Application&mstk=AUtExfB2z9nqxsKV0KpD7Yz1mP5bxhVFQkAEjDuPEbEqgFcvdQdjaycieJMB8LeM9vl2sV35UkXL5p--DtsCvrMDuGNQtjdxxBqrk3fJC_tOI2jARFTRlX1DgN6gU5hTfD-PBKlpb76lfWravOHzYG4ys_FxEAPm9XBOKbRDKv6XFR0qSLI&csui=3&ved=2ahUKEwiguJzd9OmSAxXSJxAIHaBjIVMQgK4QegQIAxAD):** Время, отведенное на занятия в классе, посвящено решению задач, дебатам, анализу конкретных случаев и практическим проектам. 
+- **[Смена роли учителя ](https://www.google.com/search?q=Teacher+Role+Shift&mstk=AUtExfB2z9nqxsKV0KpD7Yz1mP5bxhVFQkAEjDuPEbEqgFcvdQdjaycieJMB8LeM9vl2sV35UkXL5p--DtsCvrMDuGNQtjdxxBqrk3fJC_tOI2jARFTRlX1DgN6gU5hTfD-PBKlpb76lfWravOHzYG4ys_FxEAPm9XBOKbRDKv6XFR0qSLI&csui=3&ved=2ahUKEwiguJzd9OmSAxXSJxAIHaBjIVMQgK4QegQIAxAF):** Преподаватель превращается из «мудреца на сцене» в «наставника рядом», предоставляя  персонализированные рекомендации в режиме реального времени. 
+- **[Методы активного обучения ](https://www.google.com/search?q=Active+Learning+Techniques&mstk=AUtExfB2z9nqxsKV0KpD7Yz1mP5bxhVFQkAEjDuPEbEqgFcvdQdjaycieJMB8LeM9vl2sV35UkXL5p--DtsCvrMDuGNQtjdxxBqrk3fJC_tOI2jARFTRlX1DgN6gU5hTfD-PBKlpb76lfWravOHzYG4ys_FxEAPm9XBOKbRDKv6XFR0qSLI&csui=3&ved=2ahUKEwiguJzd9OmSAxXSJxAIHaBjIVMQgK4QegQIAxAH):** К распространенным видам деятельности относятся решение проблем в парах  методом «думай вслух» (TAPPS), трехэтапные интервью и групповые проекты.  
+
+
+
+**Преимущества перевернутого класса** 
+
+- **Повышение вовлеченности:** Активное обучение повышает мотивацию и вовлеченность студентов. 
+- **Улучшенное понимание:** Студенты могут многократно повторять базовый материал. 
+- **Индивидуальный темп:** Позволяет студентам учиться в соответствии со своими собственными способностями. 
+- **Мышление высшего порядка:** Это освобождает время на занятиях для анализа и оценки, а не только для прослушивания лекций.  
+
+
+
+**Проблемы и советы по внедрению** 
+
+- **Ответственность студентов:** Требуется, чтобы студенты выполняли задания до начала занятия, что можно проверить с помощью предварительных тестов. 
+- **Цифровой разрыв:** Зависит от надежного домашнего интернет-соединения и современных технологий. 
+- **Большая рабочая нагрузка:** Первоначальное планирование и создание контента могут отнимать у учителей много времени. 
+- **Передовая практика:** Видеоролики перед началом занятий должны быть короткими. ![img](data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==)
+минут) для поддержания вовлеченности.  
+
 ---
 
 **Проблемы и соображения** 
