@@ -1,5 +1,7 @@
 ## Установка игры Granny на Debian
 
+https://now.gg/apps/dvloper/4807/granny.html
+
 Давайте пошагово "подлечим" ваш `sources.list`:
 
 #### 1. Включите нужные репозитории
