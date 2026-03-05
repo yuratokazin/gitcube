@@ -1,5 +1,84 @@
 ## Установка игры Granny на Debian
 
+Давайте пошагово "подлечим" ваш `sources.list`:
+
+#### 1. Включите нужные репозитории
+
+Steam — это проприетарное ПО, поэтому Debian не видит его в стандартном наборе.
+Выполните команду:
+
+```
+sudo apt edit-sources
+```
+
+Скопируйте и вставьте этот текст вместо вашего (в `nano` используйте стрелки и клавиатуру):
+
+```
+deb http://deb.debian.org/debian bookworm main non-free-firmware contrib non-free
+deb-src http://deb.debian.org/debian bookworm main non-free-firmware contrib non-free
+
+deb http://deb.debian.org/debian bookworm-updates main non-free-firmware contrib non-free
+deb-src http://deb.debian.org/debian bookworm-updates main non-free-firmware contrib non-free
+
+deb http://security.debian.org/debian-security/ bookworm-security main non-free-firmware contrib non-free
+deb-src http://security.debian.org/debian-security/ bookworm-security main non-free-firmware contrib non-free
+
+deb http://deb.debian.org/debian bookworm-backports main non-free-firmware contrib non-free
+deb-src http://deb.debian.org/debian bookworm-backports main non-free-firmware contrib non-free
+```
+
+Что делать дальше:
+
+1. Нажмите **Ctrl+O**, затем **Enter** (сохранить).
+2. Нажмите **Ctrl+X** (выйти).
+
+#### 2. Добавьте архитектуру i386
+
+Steam — это 32-битное приложение. Без этого шага он не установится:
+
+```
+sudo dpkg --add-architecture i386
+```
+
+Используйте код с осторожностью.
+
+#### 3. После этого обязательно обновите кэш (списки):
+
+```
+sudo apt update
+```
+
+#### 4. Установите Steam:
+
+```
+sudo apt install steam
+```
+
+#### 5. Приложения > Игры > Install Steam 
+
+Появится окно Steam Installer Это окно — финальный этап установки самого клиента.
+
+Что нужно сделать теперь:
+
+1. В окне **Steam Installer** просто нажмите **Enter** (или кнопку «ОК»), чтобы подтвердить установку в папку по умолчанию (`/home/oem/.steam/...`).
+2. После этого откроется терминал, который начнет скачивать основные файлы Steam (около 300–500 МБ).
+3. **Важно:** Поскольку у вас была низкая скорость интернета, этот процесс может  занять 15–30 минут. Не закрывайте окно, пока оно не исчезнет или не  появится окно входа в Steam.
+
+#### 6. Как запустить Granny после входа в Steam:
+
+Когда Steam откроется и вы войдете в аккаунт:
+
+1. Найдите **Granny** в магазине или библиотеке.
+2. **Обязательно**: зайдите в верхнее меню `Steam` -> `Settings` -> `Compatibility`.
+3. Поставьте галочку **"Enable Steam Play for all other titles"** и выберите версию **Proton Experimental**.
+4. Теперь нажмите кнопку **"Install"** на странице игры. Она скачается и запустится так же, как на Windows.
+
+**Маленький совет:** Если после запуска Steam игра будет тормозить, проверьте, установлены ли у вас драйверы на видеокарту. У вас **Lenovo**, там обычно Intel или Nvidia.
+
+---
+
+## Установка игры Granny на Debian
+
 ### Способ 1: Через Steam Proton
 
 1. **Установка Steam**
