@@ -1,0 +1,20 @@
+menu hshift 0
+menu width 82
+
+menu title gitcube-live-config 1.0.0 - Boot menu
+include stdmenu.cfg
+
+label live-@FLAVOUR@-russian
+        menu label ^Live (@FLAVOUR@) (Russian)
+        menu default
+        linux @LINUX@
+        initrd @INITRD@
+        append @APPEND_LIVE@ locales=ru_RU.UTF-8 keyboard-layouts=us,ru keyboard-options=grp:alt_shift_toggle
+
+label live-@FLAVOUR@-english
+        menu label ^Live (@FLAVOUR@) (English)
+        linux @LINUX@
+        initrd @INITRD@
+        append @APPEND_LIVE@ locales=en_US.UTF-8
+
+menu end
