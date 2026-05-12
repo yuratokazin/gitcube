@@ -1,0 +1,27 @@
+---
+componentName:  default
+
+strings:
+    productName:         gitcube
+    shortProductName:    gitcube
+    productVersion:      1.0
+    shortProductVersion: 1.0
+    versionedName:       gitcube 1.0
+    shortVersionedName:  gitcube 1.0
+    bootloaderEntryName: gitcube
+    productUrl:          https://gitcube.ru
+    supportUrl:          https://gitcube.ru/support
+    releaseNotesUrl:     https://gitcube.ru/release-notes
+
+images:
+    productLogo:         "gitcube-logo.png"
+    productIcon:         "gitcube-logo.png"
+    productWelcome:      "welcome.png"
+
+slideshow:               "show.qml"
+
+style:
+   sidebarBackground:    "#292F34"
+   sidebarText:          "#FFFFFF"
+   sidebarTextSelect:    "#292F34"
+   sidebarTextHighlight: #3DAEE9
