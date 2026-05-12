@@ -1,0 +1,15 @@
+# Установка (Calamares)
+calamares calamares-settings-debian partitionmanager dbus-x11 xinit user-setup sudo
+
+# Словари и cracklib для Calamares
+cracklib-runtime wamerican
+
+# Софт и инструменты
+ark gparted
+squashfs-tools live-boot live-config live-build tree
+
+# Драйверы и прошивки
+firmware-sof-signed libblockdev-crypto3 firmware-linux firmware-linux-free
+firmware-iwlwifi firmware-realtek firmware-atheros firmware-brcm80211
+firmware-libertas firmware-bnx2 firmware-misc-nonfree
+intel-microcode amd64-microcode

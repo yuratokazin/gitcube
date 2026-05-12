@@ -1,0 +1,23 @@
+# Базовый интерфейс и Wayland
+plasma-desktop plasma-workspace sddm
+konsole dolphin systemsettings kscreen
+
+# Софт и инструменты
+kate kwrite kolourpaint
+
+# Оборудование и питание
+powerdevil bluedevil bluez
+
+# Сеть и звук
+network-manager plasma-nm plasma-pa pipewire-audio-client-libraries
+pipewire-audio
+wireplumber
+libspa-0.2-bluetooth
+
+# Графика
+xwayland xserver-xorg-core xserver-xorg-video-all xserver-xorg-input-all
+
+# Локализация, браузер и сертификаты
+locales task-russian task-russian-kde-desktop
+firefox-esr firefox-esr-l10n-ru ca-certificates
+
