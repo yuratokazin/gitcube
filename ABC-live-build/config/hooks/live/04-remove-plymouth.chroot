@@ -1,0 +1,21 @@
+#!/bin/sh
+set -e
+
+echo "P: Удаление Plymouth для отображения текстовой загрузки..."
+
+# 1. Полностью удаляем пакеты заставки
+apt-get purge -y plymouth plymouth-themes
+
+# 2. Настраиваем Grub на текстовый режим (для установленной системы)
+if [ -f /etc/default/grub ]; then
+    # Очищаем параметры quiet и splash
+    sed -i 's/quiet//g' /etc/default/grub
+    sed -i 's/splash//g' /etc/default/grub
+    # Включаем консольный вывод
+    echo "GRUB_TERMINAL=console" >> /etc/default/grub
+fi
+
+# 3. Обновляем initramfs, чтобы ядро знало, что графики на старте нет
+if command -v update-initramfs >/dev/null; then
+    update-initramfs -u
+fi

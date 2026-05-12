@@ -1,0 +1,38 @@
+#!/bin/sh
+set -e
+
+echo "P: [Hook 03] Настройка интерфейса (Breeze Light + Панель + Обои)..."
+
+mkdir -p /etc/xdg
+
+# 1. Настройка KDE Plasma (Конфиг обоев и светлой панели)
+# Используем '>', так как это создание основного файла настроек
+cat <<EOF > /etc/xdg/plasmarc
+[Wallpaper]
+Image=Next
+
+[Theme]
+name=default
+EOF
+
+# 2. Глобальная цветовая схема (Breeze Light)
+cat <<EOF > /etc/xdg/kdeglobals
+[KDE]
+lookAndFeelPackage=org.kde.breeze.desktop
+
+[General]
+ColorScheme=BreezeLight
+EOF
+
+# 3. Настройка GTK приложений (светлая тема для Firefox и др.)
+mkdir -p /etc/gtk-3.0
+cat <<EOF > /etc/gtk-3.0/settings.ini
+[Settings]
+gtk-theme-name=Breeze
+gtk-application-prefer-dark-theme=false
+EOF
+
+# 4. Принудительная очистка кеша плазмы (чтобы изменения применились сразу)
+rm -rf /var/lib/live/config/kde-plasma
+
+echo "P: [Hook 03] Визуальное оформление настроено."

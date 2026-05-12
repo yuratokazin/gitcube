@@ -1,0 +1,41 @@
+#!/bin/sh
+set -e
+
+echo "P: [Hook 05] Установка брендинга gitcube..."
+
+# 1. Меняем название дистрибутива в /etc/os-release
+# Это то, что показывают настройки KDE и команда neofetch
+cat <<EOF > /etc/os-release
+PRETTY_NAME="gitcube 1.0"
+NAME="gitcube"
+VERSION_ID="1.0"
+VERSION="1.0 (trixie)"
+ID=gitcube
+ID_LIKE=debian
+HOME_URL="https://yourlink.com"
+SUPPORT_URL="https://yourlink.com"
+BUG_REPORT_URL="https://yourlink.com"
+EOF
+
+# 2. Меняем название в /etc/issue (текст перед входом в консоль)
+echo "gitcube 1.0 \n \l" > /etc/issue
+echo "gitcube 1.0 \n \l" > /etc/issue.net
+
+# 3. Меняем имя хоста (hostname) по умолчанию
+echo "gitcube" > /etc/hostname
+
+# 4. Меняем название в GRUB (для установленной системы)
+if [ -f /etc/default/grub ]; then
+    # Меняем заголовок в меню загрузки
+    sed -i 's/DISTRIBUTOR=.*/DISTRIBUTOR="gitcube"/' /etc/default/grub
+fi
+
+# 5. Если используется lsb-release
+cat <<EOF > /etc/lsb-release
+DISTRIB_ID=gitcube
+DISTRIB_RELEASE=1.0
+DISTRIB_CODENAME=trixie
+DISTRIB_DESCRIPTION="gitcube 1.0"
+EOF
+
+echo "P: [Hook 05] Брендинг gitcube установлен."

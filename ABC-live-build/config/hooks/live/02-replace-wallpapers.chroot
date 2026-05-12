@@ -1,0 +1,38 @@
+#!/bin/sh
+set -e
+
+echo "P: [Hook 02] Установка темы Nuvole и настройка системных фонов..."
+
+# 1. Тотальная зачистка
+rm -rf /usr/share/wallpapers/*
+
+# 2. Установка темы Next (для выбора в настройках KDE)
+mkdir -p /usr/share/wallpapers/Next
+if [ -d /usr/share/my_wallpapers/Next ]; then
+    cp -a /usr/share/my_wallpapers/Next/. /usr/share/wallpapers/Next/
+fi
+
+# 3. ИСПОЛЬЗУЕМ nuvole.png как главный системный фон
+# Мы копируем его в системную папку как эталонный файл
+if [ -f /usr/share/my_wallpapers/nuvole.png ]; then
+    mkdir -p /usr/share/images/desktop-base/
+    rm -rf /usr/share/images/desktop-base/*
+
+    cp /usr/share/my_wallpapers/nuvole.png /usr/share/images/desktop-base/nuvole_main.png
+
+    # Теперь все системные ссылки ведут на него:
+    ln -sf nuvole_main.png /usr/share/images/desktop-base/desktop-background
+    ln -sf nuvole_main.png /usr/share/images/desktop-base/default-wallpaper.png
+    ln -sf nuvole_main.png /usr/share/images/desktop-base/login-background.png
+    ln -sf nuvole_main.png /usr/share/images/desktop-base/active-theme.desktop-background
+fi
+
+# 4. Права доступа
+find /usr/share/wallpapers/Next -type d -exec chmod 755 {} +
+find /usr/share/wallpapers/Next -type f -exec chmod 644 {} +
+chmod 644 /usr/share/images/desktop-base/nuvole_main.png
+
+# 5. Удаление временной папки
+rm -rf /usr/share/my_wallpapers/
+
+echo "P: [Hook 02] Системные фоны настроены через nuvole.png."

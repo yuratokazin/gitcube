@@ -1,0 +1,29 @@
+#!/bin/sh
+set -e
+
+# Настройка локали
+echo "ru_RU.UTF-8 UTF-8" > /etc/locale.gen
+locale-gen
+update-locale LANG=ru_RU.UTF-8
+
+# Исправление cracklib для Calamares
+if [ -f /usr/share/dict/words ]; then
+    create-cracklib-dict /usr/share/dict/words
+else
+    mkdir -p /var/cache/cracklib
+    echo "password" > /tmp/tempwords
+    create-cracklib-dict /tmp/tempwords
+    rm /tmp/tempwords
+fi
+
+# Отключение жестких проверок пароля
+if [ -f /etc/security/pwquality.conf ]; then
+    echo "minlen = 1" > /etc/security/pwquality.conf
+    echo "minclass = 0" >> /etc/security/pwquality.conf
+fi
+
+sed -i 's/pam_cracklib.so.*/pam_permit.so/' /etc/pam.d/common-password 2>/dev/null || true
+sed -i 's/pam_pwquality.so.*/pam_permit.so/' /etc/pam.d/common-password 2>/dev/null || true
+
+# Права
+chown -R root:root /etc/skel
