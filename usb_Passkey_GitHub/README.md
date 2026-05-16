@@ -51,6 +51,8 @@ cd /media/oem/EED7-FA45/KeePassXC
 git init
 git add .
 git commit -m "Первый коммит"
+git remote remove origin
+git remote add origin https://github.com/yuratokazin/gitcube.git
 ```
 
 **Рекомендация:** Убедитесь, что вы не пытаетесь добавить в Git всю флешку целиком. Лучше всего инициализировать Git строго внутри папки с вашим проектом  (например, в подпапке с исходным кодом KeePassXC), чтобы не захламлять  историю лишними файлами с накопителя.
@@ -65,6 +67,7 @@ git commit -m "Первый коммит"
 
 ```
 git lfs track "*.zip"
+git lfs track "*.AppImage"
 ```
 
 После этого сделайте обычный `git add`, `git commit` и `git push`. 
